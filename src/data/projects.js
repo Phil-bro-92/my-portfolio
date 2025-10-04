@@ -6,6 +6,6 @@ export const projects = [
     description: "A modern portfolio built with React, Tailwind, and Framer Motion.",
     image: portfolioImg,
     tags: ["React", "TailwindCSS", "Framer Motion"],
-    link: "https://yourprojectlink.com"
+    link: "https://phil-bro-92.github.io/my-portfolio/"
   },
 ];
