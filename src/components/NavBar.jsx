@@ -13,8 +13,12 @@ export default function Navbar() {
             className={`fixed w-full z-50 ${brandColor} shadow-md`}>
             <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
                 <h1
-                    className="text-2xl md:text-3xl font-bold tracking-wide text-white"
-                    style={{ fontFamily: "'Montserrat', sans-serif" }}>
+                    className="text-2xl md:text-3xl font-bold tracking-wide text-white cursor-pointer"
+                    style={{ fontFamily: "'Montserrat', sans-serif" }}
+                    onClick={() =>
+                        (window.location.href =
+                            "https://phil-bro-92.github.io/my-portfolio/#/")
+                    }>
                     PHIL BROADLEY
                 </h1>
 
