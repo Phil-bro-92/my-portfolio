@@ -1,0 +1,29 @@
+{
+    "name": "phils_portfolio",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "homepage": "https://phil-bro-92.github.io/my-portfolio",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.5.10",
+        "framer-motion": "^12.23.22",
+        "react": "^19.1.1",
+        "react-dom": "^19.1.1"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.0",
+        "postcss": "^8.4.32",
+        "autoprefixer": "^10.4.16",
+        "@vitejs/plugin-react": "^4.2.0",
+        "vite": "^5.0.0",
+        "gh-pages": "^6.0.0"
+    }
+}
